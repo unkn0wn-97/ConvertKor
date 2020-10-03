@@ -1,4 +1,4 @@
-# ConvertKor V2.5.1 - 한글 변환 플러그인
+# ConvertKor V2.5.2 - 한글 변환 플러그인
 
 원본 제작자: RedMat
 수정자: KR_WOLF#5912 = UNKNOWN#2214
