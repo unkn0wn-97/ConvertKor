@@ -1,7 +1,7 @@
 # ConvertKor V2.5.1 - 한글 변환 플러그인
 
 원본 제작자: RedMat
-수정자: KR_WOLF#5912
+수정자: KR_WOLF#5912 = UNKNOWN#2214
 도움: noname/RedMat
 
 ## ConvertKor 다운로드
@@ -31,6 +31,7 @@ ex) message = ConvertKor?.Call("GetConvertKor", message).ToString();
 플레이어가 한글 상태인지 영어 상태인지 확인합니다.
 
 ConvertKor.Call("isConvertKor", player))
+
 ```
 ## 기능 -
 ```
