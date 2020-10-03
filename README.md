@@ -124,6 +124,9 @@ oxide/lang/en 폴더에 ConvertKor.json
 
 ## 업데이트 정보 -
 ```
+V2.5.2
+1. 한글/영어 확인하는 API 확인 하던 도중 API 가 전혀 동작을 안하는것을 수정하였습니다.
+
 V2.5.1
 1. 실수로 OnPlayerInit Hook 을 안지운 버전 올렸네요..
 
