@@ -5,7 +5,7 @@
 도움: noname/RedMat
 
 ## ConvertKor 다운로드
-[ConvertKor 다운로드](https://drive.google.com/file/d/1OjLArQbvYlda-2mbWQYNO7vAGNGPOFC_/view?usp=sharing, "download link")
+[ConvertKor 다운로드](https://github.com/unkn0wn-97/ConvertKor/archive/master.zip, "download link")
 
 ## 필수 다운로드 플러그인 -   
 https://umod.org/plugins/better-chat   
