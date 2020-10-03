@@ -84,7 +84,7 @@ namespace Oxide.Plugins
             }
             
             String userId = basePlayer.UserIDString;
-            if (!User.ContainsKey(userId))C
+            if (!User.ContainsKey(userId))
             {
                 PlayerDatas data = new PlayerDatas();
 
@@ -245,6 +245,8 @@ namespace Oxide.Plugins
             BasePlayer basePlayer = BasePlayerUtils.GetBasePlayer(ulong.Parse(player.Id));
             String userId = basePlayer.UserIDString;
 
+            if (!convertKorUserSet.ContainsKey(basePlayer.userID)) convertKorUserSet.Add(basePlayer.userID, true);
+
             if (!User.ContainsKey(userId))
             {
                 PlayerDatas data = new PlayerDatas();
@@ -262,11 +264,13 @@ namespace Oxide.Plugins
                 {
                     User[userId].KorMode = "EN";
                     CheckUI(basePlayer);
+                    convertKorUserSet[basePlayer.userID] = false;
                     player.Reply($"{string.Format(Lang("Prefix", null))} <color=#00ffff>영어</color> 로 변경되었습니다.");
                 }
                 else
                 {
                     User[userId].KorMode = "KR";
+                    convertKorUserSet[basePlayer.userID] = true;
                     CheckUI(basePlayer);
                     player.Reply($"{string.Format(Lang("Prefix", null))} <color=#00ffff>한글</color> 로 변경되었습니다.");
                 }
